@@ -43,6 +43,47 @@ With Amazon Athena, you don't have to worry about having enough compute resource
 
 ## AWS Data Exchange
 -------------------
+Easily find, subscribe to, and use third-party data in the cloud.
+
+With AWS Data Exchange, providers publish data products and subscribers subscribe to those products.
+
+#### What is AWS Data Exchange?
+AWS Data Exchange is a service that makes it easy for AWS customers to find, subscribe to, and use third-party data in the AWS Cloud.
+
+As a subscriber, you can find and subscribe to thousands of products from qualified data providers. Then, you can use the AWS Data Exchange console or APIs to create, view, manage, and access data sets for use across a variety of AWS analytics and machine learning services. Anyone with an AWS account can be an AWS Data Exchange subscriber.
+
+For providers, AWS Data Exchange eliminates the need to build and maintain any data delivery, entitlement, or billing technology. Providers in AWS Data Exchange have a secure, transparent, and reliable channel to reach AWS customers and grant existing customers their subscriptions more efficiently. 
+
+#### What is an AWS Data Exchange product?
+A product is the unit of exchange in AWS Data Exchange that is published by a provider and made available for use to subscribers. When a provider publishes a product, that product is listed on the AWS Data Exchange product catalog as well as AWS Marketplace after being reviewed by AWS. Each product you publish is uniquely identiﬁed by its product ID.
+
+A product has the following parts:
+
+**Product details** – This information includes name, descriptions (both short and long), logo image, and support contact information. 
+
+**Product offers** – Oﬀers deﬁne the terms that subscribers are agreeing to when they subscribe to a product.
+
+**Data sets** – A product can contain one or more data sets. A data set in AWS Data Exchange is a dynamic set of data which is versioned through the use of revisions. Each revision can contain multiple assets. The provider can decide which revisions within a data set are published to a product.
+
+#### Malware prevention:
+Security and compliance is a shared responsibility between you and AWS. To promote a safe, secure, and trustworthy service for everyone, AWS Data Exchange scans all S3 object files published by providers before they are made available to subscribers. If AWS detects malware, the affected asset is removed.
+
+#### Supported data sets:
+AWS Data Exchange takes a responsible approach to facilitating data transactions by promoting transparency through use of the service. AWS Data Exchange reviews permitted data types, restricting products that are not permitted. Providers are limited to distributing data sets that meet the legal eligibility requirements set forth in the Terms and Conditions for AWS Marketplace Sellers.
+
+#### Accessing AWS Data Exchange:
+Subscribers:
+- AWS Data Exchange console (Browse catalog)
+- AWS Marketplace catalog
+
+Providers:
+- Directly through the AWS Data Exchange console (Publish data)
+
+- Programmatically using the following APIs:
+
+  - AWS Data Exchange API – Use the API operations to create, view, update, and delete data sets and revisions. You can also use these API operations to import and export assets to and from those revisions. 
+
+  - AWS Marketplace Catalog API - Use the API operations to view and update products. 
 
 ## AWS Data Pipeline
 -------------------
