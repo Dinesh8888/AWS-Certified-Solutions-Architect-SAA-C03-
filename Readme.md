@@ -85,6 +85,23 @@ Providers:
 
   - AWS Marketplace Catalog API - Use the API operations to view and update products. 
 
+#### Pricing:
+Your AWS Data Exchange subscriptions are displayed in the currency you specified for your AWS account.
+
+#### Supported Regions:
+AWS Data Exchange has a single, globally available product catalog offered by providers. Subscribers can see the same catalog regardless of which AWS Region they are using. 
+
+#### Related services:
+The following services are related to AWS Data Exchange:
+
+Amazon S3 – Amazon S3 object snapshots. Subscribers can export data sets to Amazon S3 programmatically. 
+
+Amazon API Gateway – Subscribers can call the API programmatically, call the API from the AWS Data Exchange console, or download the OpenAPI specification file. 
+
+Amazon Redshift – Subscribers can get read-only access to query the data in Amazon Redshift without extracting, transforming, and loading data. 
+
+AWS Marketplace – AWS Data Exchange allows data sets to be published as products on AWS Marketplace. AWS Data Exchange providers must be registered as AWS Marketplace sellers, and can use the AWS Marketplace Management Portal or the AWS Marketplace Catalog API. 
+
 ## AWS Data Pipeline
 -------------------
 
